@@ -103,3 +103,17 @@
 .price img {
   margin-bottom: 20px;
 }
+
+.jordan p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #727272;
+  max-width: 275px;
+  font-size: 16px;
+}
+
+.jordan h2 {
+  color: #ed5a6e;
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+}
