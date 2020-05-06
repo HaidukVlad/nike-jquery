@@ -7,3 +7,43 @@
 .bg {
   background: #FFFFFF;
 }
+
+.slip-bg {
+  /* background: linear-gradient (to top, #eb4157, #ef5e71, #eb4157);  */
+
+  /* there are don't work linear and other gradients here */
+
+  background-color: #ef5e71;
+  height: 700px;
+  width: 1050px;
+
+  position: relative;
+}
+
+img {
+  position: absolute;
+  left: 170px;
+  top: 60px;
+
+  width: 600px;
+  height: 530px;
+}
+
+.ellipse {
+  position: absolute;
+  left: 240px;
+  top: 130px;
+
+  width: 540px;
+  height: 540px;
+  border-radius: 50%;
+  background: #e63d55;
+}
+
+.slip {
+  padding-top: 115px;
+
+  width: 1050px;
+  height: 939px;
+  background: #eb3a52;
+}
