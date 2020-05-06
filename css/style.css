@@ -6,6 +6,7 @@
 
 .bg {
   background: #FFFFFF;
+  display: flex;
 }
 
 .slip-bg {
@@ -18,9 +19,11 @@
   width: 1050px;
 
   position: relative;
+
+  margin-top: 25px;
 }
 
-img {
+.slip-bg img {
   position: absolute;
   left: 170px;
   top: 60px;
@@ -41,9 +44,44 @@ img {
 }
 
 .slip {
-  padding-top: 115px;
+  padding-top: 25px;
 
   width: 1050px;
   height: 939px;
   background: #eb3a52;
+}
+
+.lang {
+  padding-bottom: 50px;
+  padding-left: 950px;
+}
+
+.lang button {
+  font-family: 'Quicksand', sans-serif;
+  color: #ff7488;
+  font-size: 25px;
+  font-weight: 900;
+  background: 0;
+  border: 0;
+  margin-right: 5px
+}
+
+.lang button:hover {
+  transition: 0.4s;
+  color: #FFFFFF;
+}
+
+.lang button:not(:hover) {
+  transition: 0.4s;
+}
+
+.price {
+  width: 1050px;
+  height: 939px;
+  margin-top: 130px;
+}
+
+.container {
+  width: 585px;
+  margin: 0 auto;
 }
