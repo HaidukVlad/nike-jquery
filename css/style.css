@@ -3,21 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: auto;
+}
 
 .bg {
   background: #FFFFFF;
   display: flex;
+  height: 939px;
 }
 
 button {
   background: rgba(0, 0, 0, 0);
-  border: 0;
 }
 
 .slip-bg {
-  /* background: linear-gradient (to top, #eb4157, #ef5e71, #eb4157);  */
-
-  /* there are don't work linear and other gradients here */
+   background: linear-gradient(to top, #eb4157, #ef5e71, #eb4157);
 
   background-color: #ef5e71;
   height: 700px;
@@ -81,7 +82,7 @@ button {
 
 .price {
   width: 1050px;
-  height: 939px;
+  min-height: 809px;
   margin-top: 130px;
 }
 
@@ -160,11 +161,39 @@ button {
   height: 72px;
 
   background: #f6f6f6;
-  border: 1px solid e03a52;
+  border: 1px solid #e03a52;
 
   margin-top: 70px;
 
   color: #e03a52;
   font-size: 21px;
   font-family: 'Oswald', sans-serif;
+}
+
+.about-buttons button {
+    /* display: inline-block; */
+    /* color: #07aa19; */
+    /* line-height: 1; */
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+.about-buttons button:after {
+    display: block;
+    content: "";
+    background-color: #ef5e72;
+    height: 5px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.about-buttons button:hover:after,
+.about-buttons button:focus:after {
+    width: 100%;
 }
