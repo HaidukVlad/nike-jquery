@@ -8,7 +8,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Quicksand:wght@600&family=Roboto&family=Rubik+Mono+One&display=swap" rel="stylesheet">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
    <script type="text/javascript">
+   $(function() {
+     $(".description").click(function () {
+       $(".description-p").show();
+       $(".description").css('color', 'black');
+       $(".size").css('color', '#727272');
+       $(".size").css('border', '0');
+       $(".size-p").hide();
+       $(".review-p").hide();
+       $(".review").css('color', '#727272');
+       $(".review").css('border', '0');
 
+       /*js works not rirhtly*/
+     });
+   });
+   $(function() {
+     $(".reviews").click(function () {
+       $(".reviews-p").show();
+       $(".description-p").hide();
+       $(".size-p").hide();
+       $(".reviews").css('color', 'black');
+       $(".description").css('color', '#727272');
+       $(".size").css('color', '#727272');
+       $(".description").css('border', '0');
+       $(".size").css('border', '0');
+     });
+   });
+   $(function() {
+     $(".size").click(function () {
+       $(".size-p").show();
+       $(".reviews-p").hide();
+       $(".description-p").hide();
+       $(".size").css('color', 'black');
+       $(".reviews").css('color', '#727272');
+       $(".description").css('color', '#727272');
+       $(".review").css('border', '0');
+       $(".description").css('border', '0');
+     });
+   });
    </script>
   <title>First Slip</title>
 </head>
@@ -39,9 +76,10 @@
             </div>
             <div class="about-info">
               <p class="description-p">Мужские кроссовки Air Jordan Future с тканым верхом и подошвой из пеноматериала обеспечивают комфорт и армотизацию, позволяя создать стиль на каждый день.</p>
-              <p class="reviews-p"></p>
-              <p class="size-p"></p>
+              <p class="reviews-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, animi. Iure dolor ipsum illo pariatur a facilis molestiae veniam nesciunt!</p>
+              <p class="size-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos perferendis cupiditate dolorum, necessitatibus ea possimus asperiores nesciunt voluptatum.</p>
             </div>
+            <button class="basket">ДОБАВИТЬ В КОРЗИНУ</button>
           </div>
         </div>
       </div>

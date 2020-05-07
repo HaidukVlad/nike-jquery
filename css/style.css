@@ -11,6 +11,7 @@
 
 button {
   background: rgba(0, 0, 0, 0);
+  border: 0;
 }
 
 .slip-bg {
@@ -148,4 +149,22 @@ button {
   color: #4d4d4d;
   font-size: 19px;
   font-family: 'Roboto', sans-serif;
+}
+
+.reviews-p, .size-p {
+  display: none;
+}
+
+.basket {
+  width: 448px;
+  height: 72px;
+
+  background: #f6f6f6;
+  border: 1px solid e03a52;
+
+  margin-top: 70px;
+
+  color: #e03a52;
+  font-size: 21px;
+  font-family: 'Oswald', sans-serif;
 }
