@@ -9,6 +9,10 @@
   display: flex;
 }
 
+button {
+  background: rgba(0, 0, 0, 0);
+}
+
 .slip-bg {
   /* background: linear-gradient (to top, #eb4157, #ef5e71, #eb4157);  */
 
@@ -61,7 +65,6 @@
   color: #ff7488;
   font-size: 25px;
   font-weight: 900;
-  background: 0;
   border: 0;
   margin-right: 5px
 }
@@ -123,7 +126,6 @@
 }
 
 .about button {
-  background: 0;
   border: 0;
   font-size: 25px;
   font-weight: 600px;
