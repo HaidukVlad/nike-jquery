@@ -85,7 +85,7 @@ button {
 }
 
 .container {
-  width: 585px;
+  max-width: 585px;
   margin: 0 auto;
 }
 
@@ -121,15 +121,31 @@ button {
   font-size: 35px;
 }
 
-.about {
+.about-buttons {
   margin-top: 30px;
 }
 
-.about button {
+.about-buttons button {
   border: 0;
   font-size: 25px;
   font-weight: 600px;
   font-family: 'Oswald', sans-serif;
   margin-right: 30px;
   color: #727272;
+}
+
+.about-buttons button:first-child {
+  color: #000000;
+  border-bottom: 5px solid #ef5e72;
+}
+
+.about-info {
+  margin-top: 40px;
+}
+
+.about-info p{
+  max-width: 481px;
+  color: #4d4d4d;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
 }
