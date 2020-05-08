@@ -197,3 +197,9 @@ button {
 .about-buttons button:focus:after {
     width: 100%;
 }
+
+@media (max-width:1025px) {
+  .bg {
+    display: block;
+  }
+}
