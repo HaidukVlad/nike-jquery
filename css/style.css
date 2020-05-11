@@ -14,7 +14,7 @@ body {
 }
 
 button {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(1, 1, 1, 0);
 }
 
 .slip-bg {
@@ -196,4 +196,10 @@ button {
 .about-buttons button:hover:after,
 .about-buttons button:focus:after {
     width: 100%;
+}
+
+@media (max-width:1025px) {
+  .bg {
+    display: block;
+  }
 }
