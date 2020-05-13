@@ -18,7 +18,7 @@ button {
 }
 
 .slip-bg {
-   background: linear-gradient(to top, #48c7e8, #5dd2ef, #48c7e8);
+   background: linear-gradient(to top, #e29b63, #e7a977, #e29b63);
 
   background-color: #ef5e71;
   height: 700px;
@@ -46,7 +46,7 @@ button {
   width: 540px;
   height: 540px;
   border-radius: 50%;
-  background: #3dc5e6;
+  background: #de965c;
 }
 
 .slip {
@@ -54,7 +54,7 @@ button {
 
   width: 1050px;
   height: 939px;
-  background: #39c6e9;
+  background: #e1975a;
 }
 
 .lang {
@@ -64,7 +64,7 @@ button {
 
 .lang button {
   font-family: 'Quicksand', sans-serif;
-  color: #74e4ff;
+  color: #f6ba8b;
   font-size: 25px;
   font-weight: 900;
   border: 0;
@@ -114,13 +114,13 @@ button {
 .jordan p {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  color: #5dd2ef;
+  color: #e8ac79;
   max-width: 275px;
   font-size: 16px;
 }
 
 .jordan h2 {
-  color: #5dd2ef;
+  color: #e8ac79;
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
 }
@@ -140,7 +140,7 @@ button {
 
 .about-buttons button:first-child {
   color: #000000;
-  border-bottom: 5px solid #5dd2ef;
+  border-bottom: 5px solid #e8ac79;
 }
 
 .about-info {
@@ -163,11 +163,11 @@ button {
   height: 72px;
 
   background: #f6f6f6;
-  border: 1px solid #5dd2ef;
+  border: 1px solid #e8ac79;
 
   margin-top: 70px;
 
-  color: #5dd2ef;
+  color: #e8ac79;
   font-size: 21px;
   font-family: 'Oswald', sans-serif;
 }
@@ -183,7 +183,7 @@ button {
 .about-buttons button:after {
     display: block;
     content: "";
-    background-color: #5dd2ef;
+    background-color: #e8ac79;
     height: 5px;
     width: 0%;
     left: 50%;
