@@ -28,5 +28,31 @@ header .container {
 
 header img {
   width: 70px;
+  height: 30px;
+}
 
+.males a{
+  font-size: 21px;
+  text-decoration: none;
+  color: #ff7488;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 20px;
+  font-weight: 900;
+}
+
+.males a:hover {
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.males a:not(:hover) {
+  transition: 0.3s;
+}
+
+.males a:first-child {
+  color: #FFFFFF;
+}
+
+header .fas {
+  display: none;
 }
