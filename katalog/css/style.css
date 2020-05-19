@@ -83,7 +83,7 @@ header .fas {
   color: #a2a2a2;
 }
 
-.models {
+.field {
   width:367px;
   height:257px;
   background: #f6f6f6;
@@ -93,7 +93,7 @@ header .fas {
   flex-direction: column;
 }
 
-.models label {
+.models label , .collections label {
   margin-top: -19px;
   margin-left: 68px;
   font-size: 20px;
@@ -101,12 +101,12 @@ header .fas {
   color: #3a3a3a;
 }
 
-.models input {
+.field input , .collections input {
   margin-left: 33px;
   margin-top: 35px;
 }
 
-.models button {
+.models button , .collections button {
   background: 0;
   border: 0;
   font-size: 20px;
@@ -116,7 +116,37 @@ header .fas {
   margin-top: 35px;
 }
 
-.models button i {
+.h {
+  font-size: 21px;
+  font-family: 'Oswald', sans-serif;
+  color: #3a3a3a;
+  margin-top: 73px;
+}
+
+.models button i , .collections button i {
   font-size: 13px;
   color: #d7443b;
+}
+
+.type-of-sport label {
+  margin-top: -19px;
+  margin-left: 68px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #3a3a3a;
+}
+
+.color {
+  height: 72px;
+  width: 367px;
+  background: #f6f6f6;
+  border-radius: 4%;
+  flex-direction: row;
+}
+
+.color #color-but {
+  width: 26px;
+  height: 26px;
+  margin: 0 10px;
+  background: red;
 }
