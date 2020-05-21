@@ -4,10 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Quicksand:wght@600&family=Roboto&family=Rubik+Mono+One&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+    $(function() {
+      $(".white-but").click(function () {
+        $(".fa-check-1").toggle();
+      });
+    });
+    $(function() {
+      $(".gray-but").click(function () {
+        $(".fa-check-2").toggle();
+      });
+    });
+    $(function() {
+      $(".blue-but").click(function () {
+        $(".fa-check-3").toggle();
+      });
+    });
+    $(function() {
+      $(".red-but").click(function () {
+        $(".fa-check-4").toggle();
+      });
+    });
+    $(function() {
+      $(".green-but").click(function () {
+        $(".fa-check-5").toggle();
+      });
+    });
+    $(function() {
+      $(".purple-but").click(function () {
+        $(".fa-check-6").toggle();
+      });
+    });
+    $(function() {
+      $(".black-but").click(function () {
+        $(".fa-check-7").toggle();
+      });
+    });
+  </script>
   <title>Document</title>
 </head>
 <body>
@@ -54,13 +91,13 @@
         </div>
         <h1 class="h">ЦВЕТ</h1>
         <div class="color">
-          <button id="color-but white-but"></button>
-          <button id="color-but gray-but"></button>
-          <button id="color-but blue-but"></button>
-          <button id="color-but red-but"></button>
-          <button id="color-but green-but"></button>
-          <button id="color-but purple-but"></button>
-          <button id="color-but black-but"></button>
+          <button class="but white-but"><i class="fas fa-check fa-check-1"></i></button>
+          <button class="but gray-but"><i class="fas fa-check fa-check-2"></i></button>
+          <button class="but blue-but"><i class="fas fa-check fa-check-3"></i></button>
+          <button class="but red-but"><i class="fas fa-check fa-check-4"></i></button>
+          <button class="but green-but"><i class="fas fa-check fa-check-5"></i></button>
+          <button class="but purple-but"><i class="fas fa-check fa-check-6"></i></button>
+          <button class="but black-but"><i class="fas fa-check fa-check-7"></i></button>
         </div>
       </div>
       <div class="slips"></div>

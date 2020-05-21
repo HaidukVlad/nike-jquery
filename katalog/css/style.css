@@ -151,6 +151,38 @@ header .fas {
   width: 26px;
   height: 26px;
   margin: 0 10px;
-  background: #FFFFFF;
   border-radius: 50%;
+  position: relative;
+}
+
+.color button i {
+  display: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+}
+
+.white-but {
+  background: #FFFFFF;
+}
+
+.gray-but {
+  background: #e5e5e5;
+}
+.blue-but {
+  background: #268ab9;
+}
+.red-but {
+  background: #d7443b;
+}
+.green-but {
+  background: #bcd7a3;
+}
+.purple-but {
+  background: #884a97;
+}
+.black-but {
+  background: #383838;
 }
