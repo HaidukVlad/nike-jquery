@@ -142,11 +142,15 @@ header .fas {
   background: #f6f6f6;
   border-radius: 4%;
   flex-direction: row;
+  padding-top: 24px;
+  padding-left: 15px;
+  margin-bottom: 626px;
 }
 
-.color #color-but {
+.color button{
   width: 26px;
   height: 26px;
   margin: 0 10px;
-  background: red;
+  background: #FFFFFF;
+  border-radius: 50%;
 }
