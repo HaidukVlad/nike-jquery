@@ -44,6 +44,12 @@
         $(".fa-check-7").toggle();
       });
     });
+
+    $(function () {
+      $("#click").click(function () {
+        $(".choose").slideToggle( 400 );
+      });
+    });
   </script>
   <title>Document</title>
 </head>
@@ -51,6 +57,7 @@
   <header>
     <div class="container">
       <img src="img/logo.png" alt="">
+      <i class="fas fa-bars" id="click"></i>
       <div class="males">
         <a href="#">MEN</a>
         <a href="#">WOMEN</a>
@@ -58,7 +65,6 @@
         <a href="#">GIRLS</a>
         <a href="#">COSTUMIZE</a>
       </div>
-      <i class="fas fa-bars"></i>
       <div class="nothing"></div>
     </div>
   </header>
@@ -104,171 +110,187 @@
           <input type="text" placeholder="ПОИСК КРОССОВОК" id="search">
           <div class="slips-block">
             <div class="first-slips">
-              <div class="slip">
-                <figure>
-                  <img src="img/1.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">9 190 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/1.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">9 190 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/2.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>JORDAN FLIGHT </span>ORIGIN 4</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">6 490 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/2.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>JORDAN FLIGHT </span>ORIGIN 4</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">6 490 P</p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/3.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>FIRST CLASS</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">7 900 P</p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/4.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>TRAINER 2</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">9 190 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/3.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>FIRST CLASS</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">7 900 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/4.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>TRAINER 2</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">9 190 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
             <div class="second-slips">
-              <div class="slip">
-                <figure>
-                  <img src="img/5.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>TRAINER 2</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">8 190 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/5.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>TRAINER 2</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">8 190 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/6.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">9 490 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/6.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">9 490 P</p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/7.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>JORDAN FLIGHT </span>ORIGIN 4</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">7 900 P</p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/8.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>JORDAN TRAINER</span>PRO</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">14 990 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/7.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>JORDAN FLIGHT </span>ORIGIN 4</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">7 900 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/8.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>JORDAN TRAINER</span>PRO</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">14 990 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
             <div class="third-slips">
-              <div class="slip">
-                <figure>
-                  <img src="img/9.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>JORDAN SUPER </span>FLY 2017</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">12 190 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/9.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>JORDAN SUPER </span>FLY 2017</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">12 190 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/10.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">9 490 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/10.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">9 490 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/11.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>TRAINER 2</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">8 900 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/12.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>XI RETRO</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">6 490 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/11.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>TRAINER 2</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">8 900 P</p>
-                  </figcaption>
-                </figure>
               </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/12.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>XI RETRO</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">6 490 P</p>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
             <div class="fourth-slips">
-              <div class="slip">
-                <figure>
-                  <img src="img/13.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>JORDAN ULTRA </span>FLY 2 LOW</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">9 900 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/13.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>JORDAN ULTRA </span>FLY 2 LOW</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">9 900 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/14.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>JORDAN FLY </span>UNLIMITED</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">8 490 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/14.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>JORDAN FLY </span>UNLIMITED</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">8 490 P</p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/15.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>JORDAN </span>J23</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">8 900 P</p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="slip">
-                <figure>
-                  <img src="img/16.png" alt="">
-                  <figcaption>
-                    <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
-                    <p>Мужская Обувь</p>
-                    <p class="price">9 900 P</p>
-                  </figcaption>
-                </figure>
+              <div class="flex-media">
+                <div class="slip">
+                  <figure>
+                    <img src="img/15.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>JORDAN </span>J23</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">8 900 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="slip">
+                  <figure>
+                    <img src="img/16.png" alt="">
+                    <figcaption>
+                      <div class="name"><h2><span>AIR JORDAN </span>FUTURE</h2><img src="img/logo-r.png" alt=""></div>
+                      <p>Мужская Обувь</p>
+                      <p class="price">9 900 P</p>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
           </div>
