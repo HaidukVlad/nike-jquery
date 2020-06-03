@@ -62,3 +62,14 @@
   header .fas {
     display: none;
   }
+
+  #search {
+    height: 63px;
+    width: 1800px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 26px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 24px;
+  }
