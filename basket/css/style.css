@@ -73,3 +73,49 @@
     font-family: 'Oswald', sans-serif;
     margin-top: 24px;
   }
+
+  .main {
+      margin-top: 48px;
+  }
+
+  .main .container {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .basket {
+      background: #fafafa;
+      padding: 62px 46px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .basket h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .table {
+      display: flex;
+      justify-content: space-between;
+      width: 796px;
+      height: 55px;
+      font-family: 'Oswald', sans-serif;
+      background: #eeeeee;
+      border-radius: 15px;
+      padding: 17px 51px;
+      font-size: 17px;
+      color: #646464;
+      margin-top: 43px;
+  }
+
+  .second {
+      display: flex;
+      justify-content: space-around;
+      width: 398px;
+  }
+
+  .first {
+      width: 398px;
+  }
