@@ -9,7 +9,20 @@
     <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript">
-
+        $(function() {
+            $(".pay").click(function () {
+                $(".on").css('left','0');
+                $(".pay").css('color','#434343');
+                $(".cont").css('color','#FFFFFF');
+            });
+        });
+        $(function() {
+            $(".cont").click(function () {
+                $(".on").css('left','395px');
+                $(".pay").css('color','#FFFFFF');
+                $(".cont").css('color','#434343');
+            });
+        });
     </script>
 </head>
 <body>
@@ -90,8 +103,16 @@
                     </div>
                 </div>
                 <div class="summ">
-                    <p>Политическое уинение Платона, как бы это ни казалось символ субЪект <a href="#">акции</a></p>
-                    <div class="num"></div>
+                    <p>Политическое уинение Платона, как бы это ни казалось символ субъект <a href="#">акции</a></p>
+                    <div class="num">
+                        <p>Сумма:</p>
+                        <h1>25 670 P</h1>
+                    </div>
+                </div>
+                <div class="but">
+                    <div class="on"></div>
+                    <div class="cont"><p>ПРОДОЛЖИТЬ ПОКУПКИ</p></div>
+                    <div class="pay"><p>ОПЛАТИТЬ</p></div>
                 </div>
               </div>
           </div>
