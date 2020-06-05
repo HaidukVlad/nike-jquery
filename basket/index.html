@@ -10,19 +10,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript">
         $(function() {
-            $(".pay").click(function () {
+            $(".cont").click(function () {
                 $(".on").css('left','0');
                 $(".pay").css('color','#434343');
                 $(".cont").css('color','#FFFFFF');
             });
         });
         $(function() {
-            $(".cont").click(function () {
+            $(".pay").click(function () {
                 $(".on").css('left','395px');
                 $(".pay").css('color','#FFFFFF');
                 $(".cont").css('color','#434343');
             });
         });
+
+        //  //have some troubles
     </script>
 </head>
 <body>
@@ -114,6 +116,38 @@
                     <div class="cont"><p>ПРОДОЛЖИТЬ ПОКУПКИ</p></div>
                     <div class="pay"><p>ОПЛАТИТЬ</p></div>
                 </div>
+              </div>
+              <div class="payment">
+                  <h1>ОПЛАТА</h1>
+                  <div class="p">
+                      <p>Ваше имя</p>
+                      <p>Ваша фамилия</p>
+                  </div>
+                  <div class="inputs">
+                      <input type="text" id="name">
+                      <input type="text" id="surname">
+                  </div>
+                  <div class="p">
+                    <p>E-mail</p>
+                    <p>Город</p>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="mail">
+                    <input type="text" id="city">
+                </div>
+                <p>Адрес</p>
+                <input type="text" id="adress">
+                <div class="p">
+                    <p>Индекс</p>
+                    <p>Телефон</p>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="index">
+                    <input type="text" id="phone">
+                </div>
+                <p>Способ оплаты</p>
+                <input type="text" id="way">
+                <button id="pay">ОПЛАТИТЬ</button>
               </div>
           </div>
       </div>

@@ -94,6 +94,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 26px;
     font-weight: bold;
+    color: #272727;
   }
 
   .table {
@@ -273,4 +274,60 @@
   .but .pay {
     color: #FFFFFF;
     margin-right: -40px;
+  }
+
+  .payment {
+    display: flex;
+    flex-direction: column;
+    background: #fbfbfb;
+    padding: 62px 46px;
+    width: 881px;
+  }
+
+  .payment h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #272727;
+    margin-bottom: 40px;
+  }
+
+  .p , .inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payment p {
+    color: #626262;
+    width: 358px;
+    height: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+  }
+
+  .payment input {
+    height: 70px;
+    background-color: #eeeeee;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+  }
+
+  .inputs input {
+    width: 358px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #pay {
+    width: 395px;
+    height: 64px;
+    border-radius: 15px;
+    background: #f03b54;
+    font-size: 21px;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-left: 174px;
   }
