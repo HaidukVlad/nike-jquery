@@ -242,9 +242,7 @@
     position: relative;
 
     font-family: 'Oswald', sans-serif;
-  }
 
-  .but {
     display: flex; 
     justify-content: space-between;
     padding-left: 110px;
@@ -281,7 +279,7 @@
     flex-direction: column;
     background: #fbfbfb;
     padding: 62px 46px;
-    width: 881px;
+    max-width: 881px;
   }
 
   .payment h1 {
@@ -330,4 +328,81 @@
     color: #FFFFFF;
     margin-top: 14px;
     margin-left: 174px;
+  }
+
+  @media(max-width:1024px) {
+    .main .container {
+      flex-direction: column;
+    }
+
+    #search {
+      width: 1024px;
+    }
+
+    .payment {
+      margin-left: 70px;
+      margin-top: 50px;
+    }
+  }
+
+  @media(max-width:768px) {
+    #search {
+      width: 768px;
+    }
+
+    .payment {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+
+    .first {
+      width: 280px;
+    }
+
+    .table {
+      width: 680px;
+    }
+
+    .but {
+      width: 655px;
+      height: 64px;
+      border: 1px solid #a6a6a6;
+      margin-top: 56px;
+      border-radius: 15px;
+  
+      position: relative;
+  
+      font-family: 'Oswald', sans-serif;
+  
+      display: flex; 
+      justify-content: space-between;
+      padding-left: 110px;
+    }
+  
+    .but .on {
+      position: absolute;
+      width: 325px;
+      height: 64px;
+      border: 0;
+      background: #f03b54;
+      top: -1px;
+      left: 330px;
+      border-radius: 15px;
+    }
+  
+    .but .cont , .but .pay{
+      width: 223px;
+      height: 64px;
+      border-radius: 15px;
+      z-index: 1;
+      padding: 20px 0;
+      font-size: 18px;
+      color: #434343;
+    }
+  
+    .but .pay {
+      color: #FFFFFF;
+      margin-right: -40px;
+    }
+  
   }
