@@ -62,3 +62,52 @@
   header .fas {
     display: none;
   }
+
+  .slider {
+    height: 800px;
+    background: linear-gradient(to top, #ea3e55, #ee5a6e, #ea3e55);
+    position: relative;
+  }
+
+  .flex {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .cont {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding-top: 130px;
+  }
+
+  .slider img {
+      z-index: 2;
+  }
+
+  .ell {
+      width: 450px;
+      height: 450px;
+      background: #e63d55;
+      border-radius: 50%;
+      position: absolute;
+      left: 1050px;
+      z-index: 1;
+  }
+
+  .slider .text  h1{
+      font-weight: bold;
+      font-size: 84px;
+      font-family: 'Oswald', sans-serif;
+      color: #FFFFFF;
+  }
+
+  .slider .text  h1:not(:first-child){
+    font-weight: 200;
+}
+
+.slider .text p {
+    width: 435px;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 29px;
+}
