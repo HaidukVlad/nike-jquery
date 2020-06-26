@@ -111,3 +111,77 @@
     font-family: 'Oswald', sans-serif;
     font-size: 29px;
 }
+
+.two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half {
+  width: 880px;
+  height: 510px;
+  background-color: #f6f6f6;
+  margin-top: 170px;
+  padding-left: 88px;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+}
+
+.type {
+  border: 1px solid #aeaeae;
+  padding: 8px 15px;
+  width: 233px;
+  color: #aeaeae;
+  font-size: 16px;
+  margin-top: 111px;
+  border-radius: 5px;
+}
+
+.half h1 {
+  font-size: 77px;
+  color: #474747;
+  font-weight: 900;
+}
+
+.half h2 {
+  font-size: 53px;
+  color: #6a6a6a;
+  font-weight: 400;
+}
+
+.str {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 53px;
+}
+
+.str img {
+  width: 70px;
+  height: 25px;
+  margin-top: 27px;
+}
+
+.half button {
+  width: 225px;
+  height: 56px;
+  padding: 21px 14px;
+  background: #ef4a61;
+  font-size: 16px ;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 48px;
+}
+
+#i10{
+ position: absolute;
+ right: 0;
+ bottom: 80px;
+}
+#i11{
+  position: absolute;
+  right: 60px;
+  bottom: 45px;
+  width: 335px;
+  height: 420px;
+ }
